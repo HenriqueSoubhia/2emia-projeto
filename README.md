@@ -3,7 +3,7 @@
 # 2emia-projeto
 Descrição do projeto
 ## Autores
-- `Henrique Soubhia`
+- `Henrique Soubhia`*
 - Thiago Mendes
 - Francisco Ferrara
 - Eduardo Gomes
