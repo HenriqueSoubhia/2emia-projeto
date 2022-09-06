@@ -4,4 +4,7 @@
 Descrição do projeto
 ## Autores
 - `Henrique Soubhia`
-- 
+- Thiago Mendes
+- Francisco Ferrara
+- Eduardo Gomes
+- Gabriel Francisco
