@@ -1,4 +1,6 @@
-# 2emia-projeto
+![GitHub](https://img.shields.io/github/license/HenriqueSoubhia/2emia-projeto)
 
-##Autores
+# 2emia-projeto
+Descrição do projeto
+## Autores
 - Henrique Soubhia
