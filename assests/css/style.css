@@ -45,7 +45,7 @@ header a {
     margin: 15px;
 }
 
-.profile-info-container {
+.flex-column-center {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +74,7 @@ header a {
     text-align: center;
 }
 
-input[type="button"] {
+.btn {
     width: 30%;
     min-width: 150px;
     padding: 5px;
@@ -82,7 +82,7 @@ input[type="button"] {
     cursor: pointer;
 }
 
-input[type="button"]:hover {
+.btn:hover {
     background: gray;
 }
 
@@ -118,4 +118,35 @@ input[type="button"]:hover {
     margin: 10px 0;
 }
 
+.mt-25vh{
+    margin-top: 25vh;
+}
+.mt-20vh{
+    margin-top: 20vh;
+}
 
+.textbox{
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    height: 30px;
+    padding: 5px 15px ;
+}
+
+
+
+.w-80{
+    width: 80%;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.btn-blue{
+    background-color: aquamarine;
+}
