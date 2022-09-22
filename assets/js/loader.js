@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
     setTimeout(()=>{
-        window.location.href = "views/profile.html"
+        window.location.href = "profile.html"
     },5000)
 })
