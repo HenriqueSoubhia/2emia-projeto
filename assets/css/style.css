@@ -184,7 +184,7 @@ footer a .active {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .post-group {
@@ -221,3 +221,21 @@ footer a .active {
     border-radius: 8px;
 }
 
+.post-preview-group{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-img-preview{
+    width: 90%;
+    border: 2px solid rgb(104, 102, 102);
+    margin-bottom: 200px;
+}
+
+.post-preview-check-icon{
+    font-size: 40px;
+    align-self: flex-end;
+    margin-right:5% ;
+}
