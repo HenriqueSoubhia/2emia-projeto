@@ -67,8 +67,8 @@ footer a .active {
     margin: 45px 0;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
 
 .feed-imgs-group {
     width: 45%;
@@ -111,7 +111,7 @@ footer a .active {
 /* perfil */
 
 .profile-main {
-    margin-bottom: 50p;
+    margin-bottom: 50px;
 }
 
 .profile-bg {
@@ -176,9 +176,10 @@ footer a .active {
     width: 48%;
     margin: 2px;
     border-radius: 8px;
+    max-width: 400px;
 }
 
-/* main  */
+/* post  */
 
 .post-main {
     display: flex;
@@ -191,6 +192,7 @@ footer a .active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 
 
@@ -206,7 +208,7 @@ footer a .active {
 
 }
 
-.post-input{
+.post-input {
     display: none;
 }
 
@@ -221,21 +223,36 @@ footer a .active {
     border-radius: 8px;
 }
 
-.post-preview-group{
+.post-preview-group {
     display: none;
     /* display: flex; */
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 
-.post-img-preview{
+.post-img-preview {
     width: 90%;
+    max-width: 300px;
     border: 2px solid rgb(104, 102, 102);
-    margin-bottom: 200px;
+    margin-bottom: 12px ;
 }
 
-.post-preview-check-icon{
+a .post-preview-check-icon {
+    color: black;
+}
+
+.post-desc {
+    resize: none;
+
+}
+
+
+.post-preview-check-icon {
     font-size: 40px;
     align-self: flex-end;
-    margin-right:5% ;
+    margin-right: 5%;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
 }

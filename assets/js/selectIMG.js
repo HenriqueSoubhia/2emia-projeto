@@ -7,7 +7,6 @@ const post_group = document.querySelector(".post-group")
 function loadImage (){
     let file = fileInput.files[0]
     if(!file)return
-    console.log(file)
     img.src = URL.createObjectURL(file)
     post_group.style.display = "none"
     previewGroup.style.display = "flex"
