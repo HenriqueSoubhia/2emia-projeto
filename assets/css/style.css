@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+
 
 header {
     display: flex;
@@ -14,7 +15,6 @@ header {
     width: 100%;
     top: 0;
 }
-
 
 header img {
     margin-left: 18px;
@@ -232,10 +232,10 @@ footer a .active {
 }
 
 .post-img-preview {
-    width: 90%;
     max-width: 300px;
     border: 2px solid rgb(104, 102, 102);
     margin-bottom: 12px ;
+    max-height: 300px;
 }
 
 a .post-preview-check-icon {
@@ -244,7 +244,7 @@ a .post-preview-check-icon {
 
 .post-desc {
     resize: none;
-
+    height: 150px;
 }
 
 
@@ -255,4 +255,27 @@ a .post-preview-check-icon {
     position: absolute;
     right: 20px;
     bottom: 50px;
+}
+
+
+/* detailedPost */
+
+
+.detailedPost-main{
+    width: 100%;
+    box-sizing: content-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailedPost-desc{
+    width: 95%;
+    word-break: break-all;
+    margin-top: 20px;
+}
+
+.detailedPost-back-icon{
+    color: black;
 }
