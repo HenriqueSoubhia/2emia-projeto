@@ -296,3 +296,18 @@ a .post-preview-check-icon {
     font-size: 32px;
 }
 
+/* MediaQuery */
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:1200px) {
+    footer{
+        display: none;
+    }
+}
