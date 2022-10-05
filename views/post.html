@@ -7,24 +7,40 @@
     <title>Post</title>
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/selectIMG.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
     <header>
         <img src="../assets/imgs/Logo.png" alt="">
+        <div class="header-nav">
+            <a href="../views/feed.html">
+                <ion-icon name="home-outline"></ion-icon>
+            </a>
+            <a href="../views/post.html">
+                <ion-icon class="active" name="add-outline"></ion-icon>
+            </a>
+            <a href="../views/login.html">
+                <ion-icon name="person-outline"></ion-icon>
+            </a>
+        </div>
     </header>
     <main class="post-main">
         <div class="post-group">
             <ion-icon class="post-icon" name="images-outline"></ion-icon>
-            <p>Selecione fotos aqui</p>
+            <h4>Selecione fotos aqui</h4>
             <button class="post-btn" id="post-btn"> Selecionar arquivo</button>
-            <input type="file" class="post-input" id="post-input" accept="image/png, image/jpg, image/gif, image/jpeg" >
+            <input type="file" class="post-input" id="post-input" accept="image/png, image/jpg, image/gif, image/jpeg">
         </div>
         <div class="post-preview-group" id="preview-group">
             <img src="" id="post-img-preview" class="post-img-preview" alt="">
-            <textarea class="post-desc textbox" name="" id="" placeholder="Insira a descrição" ></textarea>
+            <textarea class="post-desc textbox" name="" id="" placeholder="Insira a descrição"></textarea>
             <a href="../views/feed.html">
-                <ion-icon id="post-check-btn" class="post-preview-check-icon" name="checkmark-circle-outline"></ion-icon>
+                <ion-icon id="post-check-btn" class="post-preview-check-icon" name="checkmark-circle-outline">
+                </ion-icon>
             </a>
         </div>
     </main>
@@ -33,14 +49,12 @@
             <ion-icon name="home-outline"></ion-icon>
         </a>
         <a href="../views/post.html">
-            <ion-icon  class="active"  name="add-outline"></ion-icon>
+            <ion-icon class="active" name="add-outline"></ion-icon>
         </a>
         <a href="../views/login.html">
             <ion-icon name="person-outline"></ion-icon>
         </a>
     </footer>
 </body>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="../assets/js/selectIMG.js"></script>
+
 </html>
