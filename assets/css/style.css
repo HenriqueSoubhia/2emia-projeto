@@ -269,6 +269,7 @@ a {
 .profile-img-content a img {
     border-radius: 8px;
     width: 100%;
+    aspect-radio:4/3;
 }
 
 
