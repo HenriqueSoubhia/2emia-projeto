@@ -13,6 +13,7 @@
 </head>
 
 <header class="header-profile">
+    <a href="../views/profile.html">ENTRAR(Só pro front)</a>
     <div class="header-nav">
         <a href="../views/feed.html">
             <ion-icon    name="home-outline"></ion-icon>
@@ -27,12 +28,13 @@
 </header>
 
 <body>
+    
     <main class="login-main">
         <img class="login-logo" src="../assets/imgs/Logo.png" alt="">
-        <form action="">
+        <form action="POST">
             <input type="text" placeholder="Email ou usuario" class="textbox">
             <input type="password" placeholder="Senha" class="textbox">
-            <a href="../views/profile.html"><button class="btn"> Entrar</a></button>
+            <button class="btn">Entrar</button>
         </form>
         <p>Não possui uma conta? <a href="../views/signin.html">Cadastre-se.</a></p>
     </main>

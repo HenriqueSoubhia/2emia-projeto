@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <header class="header-profile">
     <div class="header-nav">
         <a href="../views/feed.html">
-            <ion-icon    name="home-outline"></ion-icon>
+            <ion-icon name="home-outline"></ion-icon>
         </a>
         <a href="../views/post.html">
             <ion-icon name="add-outline"></ion-icon>
@@ -28,17 +28,16 @@
 
 <body>
     <main class="login-main">
-    <img class="login-logo" src="../assets/imgs/Logo.png" alt="">
-    <form action="">
-        <input type="text" placeholder="Nome de usuário" class="textbox">
-        <input type="text" placeholder="Email" class="textbox">
-        <input type="text" placeholder="Senha" class="textbox">
+        <img class="login-logo" src="../assets/imgs/Logo.png" alt="">
+        <form action="POST">
+            <input type="text" placeholder="Nome de usuário" class="textbox">
+            <input type="text" placeholder="Email" class="textbox">
+            <input type="text" placeholder="Senha" class="textbox">
 
-        <button class="btn">Entrar</button>
+            <button class="btn">Entrar</button>
 
-    </form>
-    <p>Já possui uma conta? <a href="../views/login.html">Entre.</a></p>
-    </main>
+        </form>
+        <p>Já possui uma conta? <a href="../views/login.html">Entre.</a></p>
     </main>
     <footer>
         <a href="../views/feed.html">
@@ -48,7 +47,7 @@
             <ion-icon name="add-outline"></ion-icon>
         </a>
         <a href="../views/login.html">
-            <ion-icon  class="active"  name="person-outline"></ion-icon>
+            <ion-icon class="active" name="person-outline"></ion-icon>
         </a>
     </footer>
 </body>
