@@ -7,7 +7,7 @@
             alt="CSS válido!" />
     </a>
 </p>
-<img style="border:0;width:88px;height:31px" src = "https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F" alt="HTML válido!" />
+<img src = "https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F" alt="HTML válido!" />
 
 
 # 2emia-projeto-rede-social
