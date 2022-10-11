@@ -3,10 +3,10 @@
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+             src = "https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F"
             alt="CSS válido!" />
     </a>
 </p>
-<src = "https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F">
 
 # 2emia-projeto-rede-social
 Rede social com o intuito de divulgar projetos pessoais e até mesmo profissionais
