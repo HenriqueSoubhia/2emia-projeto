@@ -7,7 +7,7 @@
             alt="CSS válido!" />
     </a>
 </p>
-![GitHub](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F%22)
+https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquesoubhia.github.io%2F2emia-projeto%2F
 
 # 2emia-projeto-rede-social
 Rede social com o intuito de divulgar projetos pessoais e até mesmo profissionais
