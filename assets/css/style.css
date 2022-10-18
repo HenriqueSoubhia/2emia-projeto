@@ -364,16 +364,20 @@ a {
     justify-content: center;
 }
 
+
 .profile-img-content a {
     width: 48%;
     margin: 2px;
-    max-width: 400px;
+    max-width: 175px;
+    max-height: 175px;
+    min-width: 175px;
+    min-height: 175px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .profile-img-content a img {
-    border-radius: 8px;
     width: 100%;
-    aspect-radio:4/3;
 }
 
 
@@ -571,6 +575,13 @@ a {
     .index-container{
         position: fixed;
     }
+
+    .profile-img-content a {
+        max-width: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        min-height: 250px;
+    }
 }
 
 /* desktop */
@@ -591,6 +602,13 @@ a {
 
     .index-img{
         display: flex;
+    }
+
+    .profile-img-content a {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: 400px;
+        min-height: 400px;
     }
 }
 
