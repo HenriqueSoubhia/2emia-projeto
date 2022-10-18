@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<link rel="shortcut icon" href="../assets/imgs/icon.ico" type="image/x-icon">
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="../assets/imgs/icon.ico" type="image/x-icon">
 
 
 </head>
@@ -19,7 +19,7 @@
     <a href="../views/profile.html">ENTRAR(Só pro front)</a>
     <div class="header-nav">
         <a href="../views/feed.html">
-            <ion-icon    name="home-outline"></ion-icon>
+            <ion-icon name="home-outline"></ion-icon>
         </a>
         <a href="../views/post.html">
             <ion-icon name="add-outline"></ion-icon>
@@ -31,7 +31,7 @@
 </header>
 
 <body>
-    
+
     <main class="login-main">
         <img class="login-logo" src="../assets/imgs/Logo.png" alt="Logo Hubber gradient ciano azul">
         <form action="POST">
@@ -41,16 +41,21 @@
         </form>
         <p>Não possui uma conta? <a href="../views/signin.html">Cadastre-se.</a></p>
     </main>
+
+
     <footer>
-        <a href="../views/feed.html">
-            <ion-icon name="home-outline"></ion-icon>
-        </a>
-        <a href="../views/post.html">
-            <ion-icon name="add-outline"></ion-icon>
-        </a>
-        <a href="../views/login.html">
-            <ion-icon  class="active"  name="person-outline"></ion-icon>
-        </a>
+        <div class="footer-nav">
+            <a class="footer-a" href="../views/feed.html">
+                <ion-icon name="home-outline"></ion-icon>
+            </a>
+            <a class="footer-a" href="../views/post.html">
+                <ion-icon name="add-outline"></ion-icon>
+            </a>
+            <a class="footer-a" href="../views/login.html">
+                <ion-icon class="active" name="person-outline"></ion-icon>
+            </a>
+        </div>
+
     </footer>
 </body>
 

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<link rel="shortcut icon" href="../assets/imgs/icon.ico" type="image/x-icon">
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="../assets/imgs/icon.ico" type="image/x-icon">
 
 </head>
 
@@ -39,18 +39,30 @@
         <h4 class="detailedPost-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quidem cumque
             consequuntur. Debitis quos aspernatur eveniet commodi corporis magni facilis, at nesciunt deserunt natus
             minus ipsam quaerat quas sed ad!</h4>
-    </main>
 
+        <div class="footer-nav">
+            <a class="footer-a" href="../views/feed.html">
+                <ion-icon class="active" name="home-outline"></ion-icon>
+            </a>
+            <a class="footer-a" href="../views/post.html">
+                <ion-icon name="add-outline"></ion-icon>
+            </a>
+            <a class="footer-a" href="../views/login.html">
+                <ion-icon name="person-outline"></ion-icon>
+            </a>
+        </div>
+    </main>
     <footer>
-        <a href="../views/feed.html">
-            <ion-icon name="home-outline"></ion-icon>
-        </a>
-        <a href="../views/post.html">
-            <ion-icon name="add-outline"></ion-icon>
-        </a>
-        <a href="../views/login.html">
-            <ion-icon name="person-outline"></ion-icon>
-        </a>
+        <div class="footer-content">
+            <div>
+                <h5>© 2022 Hubber. All rights reserved</h6>
+            </div>
+            <div class="footer-icons">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+        </div>
     </footer>
 
 </body>
